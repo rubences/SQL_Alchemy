@@ -1,5 +1,5 @@
 import db
-from sqlalchemy import Column, Integer, String, Float
+from sqlalchemy import Column, Integer,Integer,Float,Float
 class Producto(db.Base):
     __tablename__ = 'producto'
     id = Column(Integer, primary_key=True)
